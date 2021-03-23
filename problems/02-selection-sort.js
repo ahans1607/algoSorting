@@ -2,12 +2,28 @@
 
 // Implement swap without looking at bubble sort
 function swap(arr, index1, index2) {
-  // your code here
+  let tempFirst = arr[index1]
+  arr[index1] = arr[index2]
+  arr[index2] = tempFirst
+  
 }
 
-function selectionSort(list) {
-  // your code here
+
+function selectionSort(arr) {
+  for(let i = 0; i < arr.length; i++){
+    let smallestIdx = i 
+
+    for(let j = i + 1; j < arr.length; j++){
+      if(arr[smallestIdx] > arr[j]){
+        smallestIdx = j;
+      }
+    }
+    swap(arr, i, smallestIdx);
+  }
+  return arr
 }
+
+// console.log(selectionSort([5,6,1,3,4,-1]));
 
 module.exports = {
   selectionSort,
