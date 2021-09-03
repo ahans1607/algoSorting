@@ -6,7 +6,7 @@ function swap(array, idx1, idx2) {
   array[idx2] = temp;
 }
 
-function bubbleSort(array) {
+bubbleSort = (array) => {
   let swapped = true;
 
   while(swapped) {
