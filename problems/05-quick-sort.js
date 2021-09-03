@@ -1,6 +1,6 @@
 // Implement Quick Sort
 
-function quickSort(array) {
+quickSort = (array) => {
   // Creating an array that we'll use as a stack, using the push() and pop() functions
     stack = [];
     
