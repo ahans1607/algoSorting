@@ -1,6 +1,6 @@
 // Implement Merge Sort
 
-function merge(left, right) {
+merge = (left, right) => {
   let arr = []
     // Break out of loop if any one of the array gets empty
     while (left.length && right.length) {
