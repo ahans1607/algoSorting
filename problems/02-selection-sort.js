@@ -1,7 +1,7 @@
 // Implement Selection Sort
 
 // Implement swap without looking at bubble sort
-function swap(arr, index1, index2) {
+swap = (arr, index1, index2) => {
   let tempFirst = arr[index1]
   arr[index1] = arr[index2]
   arr[index2] = tempFirst
