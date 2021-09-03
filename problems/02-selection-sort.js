@@ -9,7 +9,7 @@ swap = (arr, index1, index2) => {
 }
 
 
-function selectionSort(arr) {
+selectionSort = (arr) => {
   for(let i = 0; i < arr.length; i++){
     let smallestIdx = i 
 
