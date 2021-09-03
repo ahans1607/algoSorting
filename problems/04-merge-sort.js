@@ -17,7 +17,7 @@ merge = (left, right) => {
     return [ ...arr, ...left, ...right ]
 }
 
-function mergeSort(array) {
+mergeSort = (array) => {
    const half = array.length / 2
   
   // Base case or terminating case
