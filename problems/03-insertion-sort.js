@@ -1,6 +1,6 @@
 // Implement Insertion Sort
 
-function insertionSort(inputArr) {
+insertionSort = (inputArr) => {
   let n = inputArr.length;
         for (let i = 1; i < n; i++) {
             // Choosing the first element in our unsorted subarray
