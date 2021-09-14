@@ -1,4 +1,4 @@
-// Implement Insertion Sort
+// Implement Insertion Sort //
 
 insertionSort = (inputArr) => {
   let n = inputArr.length;
